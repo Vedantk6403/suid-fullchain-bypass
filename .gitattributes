@@ -1,0 +1,11 @@
+# Auto-detect text files and handle them
+* text=auto
+
+# Force LF (Linux) endings for code and scripts
+*.py text eol=lf
+*.c text eol=lf
+*.sh text eol=lf
+
+# Ensure binary files (like your 'vuln' executable) aren't touched
+vuln binary
+*.png binary
